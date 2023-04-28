@@ -362,10 +362,10 @@ Notification Toast
      display: flex;
      align-items: flex-start;
      z-index: 5;
-  /* transform: translateX(calc(-100% - 40px)); */
+     transform: translateX(calc(-100% - 40px));
      transition: 0.5s ease-in-out;
      border-radius: var(--border-radius-md);
-  /* animation: slideInOut 10s ease-in-out infinite; */
+     animation: slideInOut 10s ease-in-out infinite;
      box-shadow: 0 5px 20px hsla(0,0%,0%,0.2);
      gap: 15px;
      padding: 15px;
